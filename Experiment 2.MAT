@@ -99,8 +99,7 @@ stem(t,y);
 xlabel('Time--->');
 ylabel('Amplitude--->');
 title('Convolved Output');
-% using inbuilt function
-y1=conv(x1,x2);
+y1=conv(x1,x2);% using inbuilt function
 subplot(4,1,4);
 disp('Convolved Sequence using inbuilt fun= ');
 disp(y1);
