@@ -27,3 +27,4 @@ m3
 disp('Shifted covolved blocks for overlap-addition :');
 m4
 disp('Linear Convolution of the input sequences :')
+y=sum(m4)
