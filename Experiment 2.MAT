@@ -22,7 +22,7 @@ for m=0:N-1
 x3(m+1)=0;
 for n=0:N-1
 j=mod(m-n,N);
-        x3(m+1)=x3(m+1)+x4(n+1).*x   5(j+1);
+        x3(m+1)=x3(m+1)+x4(n+1).*x5(j+1);
 end
 end
 subplot(4,1,1)
